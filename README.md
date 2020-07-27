@@ -7,6 +7,12 @@
 * Extends / Backwards compatable with [pycocotools](https://github.com/cocodataset/cocoapi/tree/master/PythonAPI/pycocotools)
 * Indexing for Locations and Sequences
 
+## Install
+
+```sh
+pip install pycococt
+```
+
 ## Usage
 
 ```python
