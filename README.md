@@ -10,7 +10,7 @@
 ## Install
 
 ```sh
-pip install pycococt
+pip install git+https://github.com/bencevans/pycococt.git
 ```
 
 ## Usage
