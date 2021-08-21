@@ -4,13 +4,13 @@
 
 ## Features
 
-* Extends / Backwards compatable with [pycocotools](https://github.com/cocodataset/cocoapi/tree/master/PythonAPI/pycocotools)
-* Indexing for Locations and Sequences
+- Extends / Backwards compatable with [pycocotools](https://github.com/cocodataset/cocoapi/tree/master/PythonAPI/pycocotools)
+- Indexing for Locations and Sequences
 
 ## Install
 
 ```sh
-pip install git+https://github.com/bencevans/pycococt.git
+pip install pycococt
 ```
 
 ## Usage
@@ -32,14 +32,14 @@ ds.locs      # = [
              #   'Location1',
              #   'Location2',
              #   'Location3',
-             #   ... 
+             #   ...
              # ]
 
 ds.locToImgs # = { 'Location1': {
              #        'imageid': {
              #           'id': 'imageid',
              #           'location': 'Location1',
-             #           'height': ... 
+             #           'height': ...
              #         }
              #      },
              #      ...
@@ -61,12 +61,12 @@ ds.locToSeqs # = {
 
 ds.seqToImgs # = { 'sequence 1 id': [
              #       {
-             #           'id': 'image id', 
+             #           'id': 'image id',
              #           ...
              #        },
              #        {
              #           'id': 'image id',
-             #           ...  
+             #           ...
              #        },
              #        ...
              #     ],
@@ -76,5 +76,3 @@ ds.seqToImgs # = { 'sequence 1 id': [
              #       ...
              #    }
 ```
-
-
