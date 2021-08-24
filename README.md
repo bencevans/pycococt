@@ -76,3 +76,12 @@ ds.seqToImgs # = { 'sequence 1 id': [
              #       ...
              #    }
 ```
+
+## Related
+
+* Collection of COCO-CameraTrap datasets available at https://lila.science/category/camera-traps/
+* COCO-CameraTrap [format definition](https://github.com/Microsoft/CameraTraps/blob/master/data_management/README.md#coco-cameratraps-format)
+
+## Licence
+
+MIT
